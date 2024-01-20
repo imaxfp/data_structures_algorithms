@@ -72,9 +72,7 @@ DRY - Do not Repeat Yourself.
 
 2. **simplify the task** - We can solve the simplified ransom note problem with characters by simply creating an array and counting the characters. Each spot in the array corresponds to one letter. 
 
-## Optimize & Solve Technique #4: Base Case and Build
-
-1. 
+## Optimize & Solve Technique #4: Base Case and Build 
 
 
 ## What Good Coding Looks Like
@@ -92,23 +90,93 @@ ciency" includes both the asymptotic (big O) efficiency and the practical, real-
 
 ## Use Data Structures Generously
 
-**bad implementation:**
-def sum(double[] expr1, double[] expr2) 
+**Bad example of data structures usage:**
+```python 
+# Bad use of data structures
+def manage_bookstore():
+    # A list of all books, mixed up with categories
+    bookstore = [
+        "Fiction", "1984", "To Kill a Mockingbird", "The Great Gatsby",
+        "Non-Fiction
 
-**good implementation:**
-class ExprTerm {
-double coefficient;
-double exponent;
-}
-def sum(ExprTerm[] exprl, ExprTerm[] expr2)
+# Attempt to find all science fiction books
+science_fiction_books = []
+is_science_fiction = False
+for book in bookstore:
+    if book == "Science Fiction":
+        is_science_fiction = True
+    elif book in ["Fiction", "Non-Fiction"]:  # Assuming these are the only other categories
+        is_science_fiction = False
+    elif is_science_fiction:
+        science_fiction_books.append(book)
 
-Somemight(andhave)arguedthatthisis"over-optimizing:'Perhapsso,perhapsnot.Regardlessofwhether you think i t 's over-optimizing, the above code demonstrates that you think about how to design your code and don' t just slop something together in the fastest way possible.
+print(f"Science Fiction Books: {science_fiction_books}")
+```
+Issues with this approach:
+
+1. **Lack of Structure**: The list `bookstore` mixes categories and book titles, making it hard to distinguish between them.
+
+2. **Inefficiency**: To find all books in a category, you have to iterate through the entire list and check for the category. This is inefficient compared to a dictionary lookup.
+
+3. **Scalability and Maintenance**: Adding a new book or category becomes cumbersome and error-prone, as you have to place items correctly in the list.
+
+4. **Readability**: The code for retrieving books in a particular category is not intuitive and requires additional logic, reducing readability.
+
+This example shows how not thoughtfully using data structures can lead to inefficient, hard-to-maintain, and error-prone code, especially as the complexity of the data and operations increases.
+
+
+**Good example of data structures usage**
+
+```python
+def manage_bookstore():
+    bookstore = {
+        "Fiction": ["1984", "To Kill a Mockingbird", "The Great Gatsby"],
+        "Non-Fiction": ["Sapiens", "A Brief History of Time"],
+        "Science Fiction": ["Dune", "Neuromancer", "Snow Crash"],
+    }
+
+    # Adding a book to a category
+    bookstore["Fiction"].append("The Catcher in the Rye")
+
+    # Adding a new category
+    bookstore["Mystery"] = ["Murder on the Orient Express", "The Hound of the Baskervilles"]
+
+    # Retrieving all books in a specific category
+    science_fiction_books = bookstore.get("Science Fiction", [])
+
+    print(f"Science Fiction Books: {science_fiction_books}")
+
+manage_bookstore()
+```
+
+1. **Organized Data Structure**: 
+   Utilizing a dictionary to categorize books by genre achieves an organized data structure. Each key represents a genre, with an associated value of a book list, enabling clear and straightforward identification and modification within categories.
+
+2. **Ease of Access and Manipulation**: 
+   This structure simplifies data access and manipulation. Adding a book to a category (`bookstore["Fiction"].append("The Catcher in the Rye")`) or introducing a new category (`bookstore["Mystery"] = [...]`) is accomplished with a single line of code.
+
+3. **Scalability**: 
+   The dictionary's structure is inherently scalable. As the collection grows, incorporating additional categories and books does not necessitate changes to the data handling logic.
+
+4. **Default Values and Safe Access**: 
+   Employing the `get` method (`bookstore.get("Science Fiction", [])`) for book retrieval ensures safe access to dictionary values and prevents `KeyError` exceptions by providing a default value for non-existent keys, useful for categories that are not yet present.
+
+5. **Readability and Maintenance**: 
+   With self-explanatory operations, the code's readability is ensured, which is essential for the maintenance of the codebase, particularly in larger projects or collaborative environments.
+
+6. **Reduction in Errors**: 
+   Appropriate data structuring and the use of dictionary methods diminish the risk of common programming errors, such as accessing an absent key.
+
+7. **Flexibility for Future Enhancements**: 
+   The current structure is flexible, accommodating future enhancements with ease. Whether it's adding new features like book searches across categories, updating book details, or removing categories, these tasks can be performed efficiently within this framework.
+
+
 
 ## Appropriate Code Reuse
 
 ## Modular
 
-**Good example:**
+**Good example of modular usage:**
 ```python
 def add(a, b):
     """Add two numbers."""
@@ -143,7 +211,7 @@ if __name__ == "__main__":
 ```
 
 
-**Bad example:**
+**Bad example of modular usage:**
 ```python
 
 def perform_operations(a, b):
@@ -170,7 +238,14 @@ def perform_operations(a, b):
 x = 10
 y = 5
 perform_operations(x, y)
-
-
 ```
 
+## Flexible and Robust
+1. **Implementation for solution** winner, doesn't mean you must assume that it's a 3x3 board. Why not write the code in a more general way that implements it for an NxN board?
+Writing flexible, general-purpose code may also mean using variables instead of hard-coded values or using templates/ generics to solve a problem. If we can write our code to solve a more general problem.
+
+## Error Checking
+
+1. Of course, writing these error checks can be tedious and can waste precious time in an interview. The important thing is to point out that you would write the checks.
+
+2. it may be best to leave some space where the error checks would go and indicate to your interviewer that you'll fill them in when you're finished with the rest of the code.
