@@ -20,6 +20,8 @@ pip3 install -r requirements.txt
 
 2. **State a Brute Force:** -  It's okay and expected that your initial algorithm won't be very optimal. (You don't want your inter­ viewer to think that you're struggling to see even the easy solution.) It's okay that this initial solution is terrible. Explain what the space and time complexity is, and then dive into improvements.
 
+2.1. **Ask interviewer** if brute force OK in this case or some specific complexity. As is it OK if we start from brute force and after that move to the optimisation. 
+
 3. **Recognize algorithms and patterns:** Recognize algorithms and patterns which can be used for the problem solving
 
 4. **Save space on the board:** Implement Start coding in the far top left corner of the whiteboard (you'll need the space). Remember that you only have a short amount of code
@@ -33,6 +35,7 @@ Walk through your algorithm and get a feel for the structure of the code. Know w
 
 2. **Precompute information:** Is there a way that you can reorganize the data (sorting, use hashtable, etc.) or compute some values upfront that will help save time in the long run.
 
+2.1 **Use data structures**
 
 3. **Write pseudocode** You can write pseudocode if you'd like. Be careful about what you write, write Basic steps:
 - (1) Search array. 
@@ -249,3 +252,118 @@ Writing flexible, general-purpose code may also mean using variables instead of 
 1. Of course, writing these error checks can be tedious and can waste precious time in an interview. The important thing is to point out that you would write the checks.
 
 2. it may be best to leave some space where the error checks would go and indicate to your interviewer that you'll fill them in when you're finished with the rest of the code.
+
+
+++++
+
+
+# Programm
+2. Dynamic programming
+3. Binary search
+4. Sliding window
+5. Two pointers 
+6. Trees 
+7. Graphs 
+8. Pointers 
+
+
+
+
+https://www.codecademy.com/
+https://www.tryexponent.com/
+https://www.educative.io/
+
+
+### Basic Data-Structures
+* 		Array
+* 		Set
+* 		Hashmap
+* 		Linked List
+* 		Stack
+* 		Queue
+* 		Tree
+* 		Graph
+
+
+Advanced Data-Structures (very often during interviews like Heaps and Binary Search Trees. LRU Caches and Tries come up less frequently but are becoming more common. Disjoint Sets and Skip Lists rarely come up, but even if not explicitly asked about them, they can be powerful tools to help you come up with quick and performant solutions.)
+
+Getting a good understanding of the basic data-structures will make learning these advanced ones much easier. 
+As we go into more advanced data-structures you’ll see they are usually made using the basic ones as building blocks.
+
+
+
+### Complexity Problems
+* 		Heap (a.k.a Priority Queue)
+* 		LRU Cache
+* 		Binary Search Tree (AVL, Redblack)
+* 		Disjoint Set
+* 		Trie
+* 		Skip List
+
+
+### Basic Searching/Traversal Algorithms
+
+* 		Breadth First Search (BFS)
+* 		Depth First Search (DFS)
+* 		Binary Search
+
+
+### Advanced Searching/Traversal Algorithms
+* 		Quick Select
+* 		Dijkstra
+* 		Bellman-Ford
+* 		A-star (rare)
+
+
+### Sorting Algorithms (Know how to implement all of these without looking anything up)
+* 		Quick Sort
+* 		Merge Sort
+* 		Topological Sort
+* 		Counting Sort
+
+
+### Important Topics
+* 		Recursion
+* 		Greedy Algorithms
+* 		Dynamic Programming
+* 		Bit Manipulation (AND, NOT, OR, XOR)
+
+
+
+### Common Patterns (These patterns can be used to solve many similar algorithms questions)
+* 		Backtracking
+* 		Two Pointers
+* 		Sliding Window
+* 		Divide & Conquer
+* 		Reservoir Sampling
+
+
+### Math based problems
+* 		Permutations
+* 		Combinations
+* 		Factorial
+* 		Power Set
+
+
+
+### Other Common Problems
+* 		String to Integer
+* 		Integer to String
+* 		Adding huge numbers (that can’t fit into memory)
+* 		Addition/Subtraction/Multiplication/Division without using operators
+
+
+Bootcamp:
+https://www.pramp.com/
+https://www.interviewkickstart.com
+https://interviewing.io/
+
+
+Practice:
+https://leetcode.com/
+https://www.hackerrank.com/
+
+
+Assisted:
+https://www.pramp.com/dashboard#/
+https://www.interviewbit.com/mock-interview/
