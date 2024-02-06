@@ -367,3 +367,24 @@ https://www.hackerrank.com/
 Assisted:
 https://www.pramp.com/dashboard#/
 https://www.interviewbit.com/mock-interview/
+
+
+MORE:
+
+### Software Engineering Principles:
+- Modularity: Writing code in a way that separates functionalities into distinct sections. For example, instead of having one large function that handles user authentication, database operations, and rendering data, you divide these into separate modules.
+
+- DRY (Don't Repeat Yourself): Avoiding repetition of software patterns. For instance, if you have multiple functions that format user input, you can create a single utility function for formatting and use it everywhere.
+
+- SOLID Principles: A set of design principles for object-oriented programming that enhance maintainability and scalability. For example, the Single Responsibility Principle dictates that a class should have only one reason to change.
+
+- YAGNI (You Aren't Gonna Need It):
+Principle: Focus on implementing things you need now, rather than anticipating and building features that might be needed in the future.
+Example: If you're building a blog platform, don't implement a complex tagging and categorization system before basic posting functionality is completed and required.
+
+### Architecture Patterns: 
+- Understanding MVC (Model-View-Controller), Microservices, Monolith, etc. For instance, using a Microservices architecture to build a scalable e-commerce platform.
+
+- Scalability: Designing systems that can handle growth, like using load balancers to distribute web traffic across multiple servers.
+
+- Database Design: Structuring a database correctly, whether it's SQL or NoSQL. For example, designing a schema for a user database that optimizes query performance and data integrity.
