@@ -6,6 +6,13 @@ export PYTHONPATH="${PYTHONPATH}:./" - 'Rexecute the next command from your proj
 pip3 install -r requirements.txt
 
 
+list of the MUST HAVE tasks:
+
+- https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
+
+
+
+
 ## Cracking the coding interview (algorithms solving advices):
 
 1. **listen carefully** - Yes, you do want to listen to the problem and make sure you heard it correctly. You do want to ask questions about anything you're unsure about.
