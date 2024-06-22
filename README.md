@@ -6,6 +6,18 @@ export PYTHONPATH="${PYTHONPATH}:./" - 'Rexecute the next command from your proj
 pip3 install -r requirements.txt
 
 
+
+## Program 
+#### LeetCode's Interview Crash Course Data Structures and Algorithms:
+
+```text
+1. Two pointers - "intersection, merging of sets, intervals"
+2. Sliding window
+3. Prefix sum
+4. Binary search 
+```
+
+
 list of the MUST HAVE tasks:
 
 - https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
@@ -268,7 +280,7 @@ Writing flexible, general-purpose code may also mean using variables instead of 
 2. Dynamic programming
 3. Binary search
 4. Sliding window
-5. Two pointers 
+5. Two pointers + 
 6. Trees 
 7. Graphs 
 8. Pointers 
@@ -360,6 +372,15 @@ As we go into more advanced data-structures you’ll see they are usually made u
 * 		Addition/Subtraction/Multiplication/Division without using operators
 
 
+## Arrays:  
+##### zero-based permutation:
+Involves rearranging an array or list of integers so that each element is moved to the position specified by the value of the element itself.
+
+
+
+
+
+### Preparation:
 Bootcamp:
 https://www.pramp.com/
 https://www.interviewkickstart.com
