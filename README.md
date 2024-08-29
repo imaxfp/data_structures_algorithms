@@ -10,6 +10,12 @@ pip3 install -r requirements.txt
 ## Program 
 #### LeetCode's Interview Crash Course Data Structures and Algorithms:
 
+
+## top patterns you have to know 
+
+https://www.youtube.com/watch?v=DjYZk8nrXVY
+
+
 ```text
 1. Two pointers - "intersection, merging of sets, intervals"
 2. Sliding window
