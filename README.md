@@ -11,6 +11,10 @@ pip3 install -r requirements.txt
 #### LeetCode's Interview Crash Course Data Structures and Algorithms:
 
 
+TODO be sure you can solve similar tasks (similar questions):
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+
+
 ## top patterns you have to know 
 
 https://www.youtube.com/watch?v=DjYZk8nrXVY
