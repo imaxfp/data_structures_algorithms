@@ -8,11 +8,21 @@ pip3 install -r requirements.txt
 
 
 ## Program 
+
+https://algomap.io
+
+
 #### LeetCode's Interview Crash Course Data Structures and Algorithms:
 
 
-TODO be sure you can solve similar tasks (similar questions):
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+TODO be sure you can solve (similar questions):
+
+1. https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+2. https://leetcode.com/problems/summary-ranges/
+3. https://leetcode.com/problems/product-of-array-except-self/description/
+4. https://leetcode.com/problems/merge-intervals/description/
+x
+
 
 
 ## top patterns you have to know 
