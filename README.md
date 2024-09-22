@@ -16,12 +16,15 @@ https://algomap.io
 
 
 TODO be sure you can solve (similar questions):
-
+0. https://leetcode.com/problems/count-number-of-nice-subarrays/description
 1. https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 2. https://leetcode.com/problems/summary-ranges/
 3. https://leetcode.com/problems/product-of-array-except-self/description/
 4. https://leetcode.com/problems/merge-intervals/description/
-x
+5. https://leetcode.com/problems/rotate-list/
+
+
+
 
 
 
