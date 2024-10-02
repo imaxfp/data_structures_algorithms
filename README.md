@@ -16,6 +16,7 @@ https://algomap.io
 
 
 TODO be sure you can solve (similar questions):
+- https://leetcode.com/problems/asteroid-collision
 0. https://leetcode.com/problems/count-number-of-nice-subarrays/description
 1. https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 2. https://leetcode.com/problems/summary-ranges/
