@@ -25,6 +25,12 @@ TODO be sure you can solve (similar questions):
 5. https://leetcode.com/problems/rotate-list/
 
 
+Subscribe to unlock:
+https://leetcode.com/problems/maximum-coins-heroes-can-collect/description
+
+
+
+
 
 
 
